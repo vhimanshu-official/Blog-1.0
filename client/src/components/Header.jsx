@@ -64,7 +64,11 @@ const Header = () => {
         {input && (
           <button
             onClick={onClear}
-            className="text-white bg-black border font-light text-xs py-1 px-3 rounded-sm shadow-custom-sm cursor-pointer"
+            style={{
+              "background-color": "#5044e519",
+            border: "1px solid #5044e566",
+            }}
+            className="border text-white font-light text-xs py-1 px-3 rounded-sm shadow-custom-sm cursor-pointer"
           >
             Clear Search
           </button>
